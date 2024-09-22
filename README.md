@@ -84,6 +84,8 @@ data(sampleDataMiss)
 Bandhan Sarker, Md. Matiur Rahaman, Muhammad Habibulla Alamin, Md. Ariful Islam and Md.  Nurul Haque Mollah
 
 ## References
+Sarker B, Rahaman MM, Alamin MH et al. (2024) Boosting edgeR (Robust) by dealing with missing observations and gene-specific outliers in RNA-Seq profiles and its application to explore biomarker genes for diagnosis and therapies of ovarian cancer. Genomics. https://doi.org/10.1016/j.ygeno.2024.110834
+
 Robinson MD, McCarthy DJ and Smyth GK (2010). edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics 26, 139-140
 
 Stekhoven, D.J. and Buehlmann, P. (2012), 'MissForest - nonparametric missing value imputation for mixed-type data', Bioinformatics, 28(1) 2012, 112-118, doi: 10.1093/bioinformatics/btr597
