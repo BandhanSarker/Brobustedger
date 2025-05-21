@@ -104,7 +104,7 @@ DEGList<-function(data,n1,n2,p.threshold=0.05,padjust="BH",mi=5,NT=100){
   lrt.edgeR <- edgeR::glmLRT(fit.edgeR, contrast=contrasts.edgeR)
   #logfold
   edgeR_results <- lrt.edgeR$table
-  sig.edgeR <- edgeR::decideTestsDGE(lrt.edgeR, adjust.method=padjust, p.value = p.threshold)
+  sig.edgeR <- edgeR::decideTests(lrt.edgeR, adjust.method=padjust, p.value = p.threshold)
   genes.edgeR <- row.names(edgeR_results)[which(sig.edgeR != 0)]
   result<-edgeR_results[genes.edgeR,]
   result$p.adjust<-p.adjust(result$PValue, method =padjust, n = length(genes.edgeR))
