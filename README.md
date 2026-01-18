@@ -17,7 +17,7 @@ install.packages("devtools")
 
 # development version from GitHub:
 require("devtools")
-devtools::install_github("BandhanSarker/Brobustedger")
+devtools::install_github("BandhanSarker/Brobustedger",build_vignettes = TRUE)
 ```
 ## Data Pre-process
 ## Step-1:
@@ -96,3 +96,4 @@ Robinson MD, McCarthy DJ and Smyth GK (2010). edgeR: a Bioconductor package for 
 Stekhoven, D.J. and Buehlmann, P. (2012), 'MissForest - nonparametric missing value imputation for mixed-type data', Bioinformatics, 28(1) 2012, 112-118, doi: 10.1093/bioinformatics/btr597
 
 George NI, Bowyer JF, Crabtree NM, Chang C-W (2015) An Iterative Leave-One-Out Approach to Outlier Detection in RNA-Seq Data. PLoS ONE 10(6): e0125224. https://doi.org/10.1371/journal.pone.0125224
+
